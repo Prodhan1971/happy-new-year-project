@@ -428,7 +428,8 @@
     flex-direction: column;
  */
 }
-.subscribe-section .mail-photo img{
+
+.subscribe-section .mail-photo img {
     /* margin: 80px auto 40px; */
     margin-top: 80px;
     margin-bottom: 40px;
@@ -465,18 +466,18 @@
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     color: rgba(7, 2, 17, 0.30);
-text-align: left;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-border: none;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
 }
 
 .email-button button {
     width: 170px;
-    height: 77px;
+    height: 73px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -489,4 +490,85 @@ border: none;
     line-height: normal;
     text-transform: capitalize;
     border: none;
+}
+
+footer {
+    width: 1600px;
+    height: 609px;
+    margin: auto;
+    /* background-color: red; */
+    background: #070211;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    margin-top: 120px;
+    margin-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 50px;
+    /* 166.667% */
+}
+
+.contact {
+    margin-top: 120px;
+    margin-right: 275px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.number {
+    display: flex;
+    color: white;
+}
+
+.website {
+    display: flex;
+    color: white;
+}
+
+.middle-footer {
+    display: flex;
+    justify-content: center;
+    margin: 48px auto;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-top: 50px;
+    margin-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.right {
+    margin-top: 50px;
+    margin-right: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
