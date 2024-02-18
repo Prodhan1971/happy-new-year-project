@@ -279,9 +279,80 @@
     border: 15px solid #F00;
 }
 
-#white-border img{
+#white-border img {
     border: 25px solid white;
     border-radius: 364.844px;
 }
 
 /* 224 */
+
+.holiday-section {
+    width: 1320px;
+    height: 986px;
+    /* border: 4px solid black; */
+    margin: 120px auto;
+    background-image: url(../Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+
+}
+
+.holiday-section-red {
+    background-image: url(../Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 400px 462px;
+
+
+
+}
+
+
+.holiday-description-section {
+    text-align: center;
+}
+
+.description-article-one {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.description-article-two {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+.description-article-three {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 125px;
+}
+
+.holiday-offer-section {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.holiday-offer-section-inner-two {
+
+    background-position: left;
+}
+
+.rectangle-picture img {}
