@@ -355,4 +355,62 @@
     background-position: left;
 }
 
-.rectangle-picture img {}
+.text-portfolio {
+    width: 1320px;
+    height: 191px;
+    /* border: 4px solid red; */
+    margin: 0px auto 48px;
+}
+
+.portfolio-first {
+    width: 192px;
+    height: 29px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.portfolio-second {
+    width: 566px;
+    height: 60px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.portfolio-third {
+    width: 896;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.photo-section-galerry{
+    width: 1320px;
+    /* display: flex; */
+    margin: 0px auto;
+    /* gap: 20px; */
+}
+
+.inner-photo-section-galerry{
+    display: flex;
+    gap: 24px;
+}
+
+.inner-photo-section-galerry-two{
+    display: flex;
+    gap: 24px;
+}
